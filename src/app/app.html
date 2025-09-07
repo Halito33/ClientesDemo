@@ -1,0 +1,4 @@
+@for (cliente of DatosClientes;track cliente){
+  <p>Nombre: {{cliente.name}}  Pais: {{cliente.country}} Telefono: {{ cliente.phone | phoneFormat }}</p>
+}
+
